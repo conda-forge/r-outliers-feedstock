@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 2001
+  number: 2002
 
   rpaths:
     - lib/R/lib/
@@ -36,13 +36,10 @@ test:
 about:
   home: http://www.r-project.org, http://www.komsta.net/
   license: GPL (>= 2)
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: A collection of some tests commonly used for identifying outliers.
   license_family: GPL3
 
 extra:
   recipe-maintainers:
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
+    - conda-forge/r
