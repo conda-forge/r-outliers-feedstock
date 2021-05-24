@@ -3,7 +3,7 @@ About r-outliers
 
 Home: http://www.r-project.org, http://www.komsta.net/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-outliers-feedstock/blob/master/LICENSE.txt)
 
