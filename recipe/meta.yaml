@@ -1,4 +1,4 @@
-{% set version = '0.14' %}
+{% set version = "0.15" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/outliers_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/outliers/outliers_{{ version }}.tar.gz
-  sha256: b6ce8f1db6442481546131def8253cabdf4472116d193daea7cb935d2b76986d
+  sha256: cc31d7f2faefd2c3a27f8ce78c7e67d3b321dcd6690292fad2468125e5e635fb
 
 build:
-  merge_build_host: True  # [win]
-  number: 2003
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
