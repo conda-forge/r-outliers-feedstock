@@ -1,11 +1,11 @@
-About r-outliers
-================
+About r-outliers-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-outliers-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.r-project.org, http://www.komsta.net/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-outliers-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of some tests commonly used for identifying outliers.
 
